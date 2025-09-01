@@ -1,3 +1,7 @@
+git@github.com:Zuku1004/sales-bonus.git 
+
+https://github.com/Zuku1004/sales-bonus
+
 # Проектная работа "Пряники"
 5 спринт, модуль JS
 
