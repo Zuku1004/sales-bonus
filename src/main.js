@@ -119,7 +119,7 @@ data.purchase_records.forEach(record => { // Чек
     // @TODO: Назначение премий на основе ранжирования
     sellerStats.forEach((seller, index) => {
         // Расчет бонуса на основе позиции в рейтинге
-        seller.bonus = calculateBonus(index, seller.total, seller);
+        seller.bonus = calculateBonus(index, sellerStats.length, seller);
         
         // Формирование топ-10 товаров продавца
         seller.top_products = Object.entries(seller.products_sold)
